@@ -1,11 +1,13 @@
 import './App.css';
 import About from './components/About';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
-      <header>
+      <header className="d-inline-flex">
         <h1>Alli Brodine</h1>
+        <Nav></Nav>
       </header>
 
       <main>
