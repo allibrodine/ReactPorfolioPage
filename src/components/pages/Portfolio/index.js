@@ -1,11 +1,11 @@
 import React from 'react';
 //import photos for cards
-import TwistedRecipes from '../../assets/images/TwistedRecipes.jpg';
-import GrowTime from '../../assets/images/GrowTime.jpg';
-import TechBlog from '../../assets/images/TechBlog.jpg';
-import ZooKeepr from '../../assets/images/ZooKeepr.jpg';
-import Taskmaster from '../../assets/images/Taskmaster.jpg';
-import WorkDay from '../../assets/images/WorkDay.jpg';
+import TwistedRecipes from '../../../assets/images/TwistedRecipes.jpg';
+import GrowTime from '../../../assets/images/GrowTime.jpg';
+import TechBlog from '../../../assets/images/TechBlog.jpg';
+import ZooKeepr from '../../../assets/images/ZooKeepr.jpg';
+import Taskmaster from '../../../assets/images/Taskmaster.jpg';
+import WorkDay from '../../../assets/images/WorkDay.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 

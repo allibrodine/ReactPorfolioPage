@@ -1,23 +1,15 @@
 import './App.css';
-import About from './components/About';
-import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Skills from './components/Skills';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
     <div>
       <header className="d-inline-flex">
         <h1>Alli Brodine</h1>
-        <Nav></Nav>
       </header>
 
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-        <Skills></Skills>
+        <PortfolioContainer />
       </main>
   
       <footer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import BeachPhoto from '../../assets/images/OntheBeach.jpg';
+import BeachPhoto from '../../../assets/images/OntheBeach.jpg';
 
 //create About section
 function About() {
