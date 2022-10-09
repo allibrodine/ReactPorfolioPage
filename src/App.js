@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
+  document.title = 'Alli Brodine'
   return (
     <div>
       <header className="d-inline-flex">
