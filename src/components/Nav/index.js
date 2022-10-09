@@ -15,7 +15,7 @@ function Nav() {
                     <span>Contact</span>
                 </li>
                 <li className="d-inline-flex mx-2">
-                    <span>Resume</span>
+                    <span>Skills</span>
                 </li>
             </ul>
         </div>
