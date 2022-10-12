@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Gothic+A1:wght@600&display=swap');
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #6D9886;
+  --tertiary-color: #D9CAB3;
+  --quaternary-color: #F6F6F6; 
+}
+
+.card {
+    margin: 10px;
+    background-color: var(--tertiary-color);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.card-title {
+    background-color: var(--tertiary-color);
+    padding: 5px;
+    width: 100%;
+}
+
+#recipes,
+#grow-time,
+#tech,
+#zoo,
+#taskmaster,
+#work-day {
+    filter: grayscale(75%);
+}
+
+#recipes:hover,
+#grow-time:hover,
+#tech:hover,
+#zoo:hover,
+#taskmaster:hover,
+#work-day:hover {
+    filter: grayscale(15%);
+}
+
+.git {
+    color: var(--secondary-color); 
+}

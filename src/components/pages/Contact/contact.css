@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Gothic+A1:wght@600&display=swap');
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #6D9886;
+  --tertiary-color: #D9CAB3;
+  --quaternary-color: #F6F6F6; 
+}
+
+label {
+    color: var(--secondary-color);
+}

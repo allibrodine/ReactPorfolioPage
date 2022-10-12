@@ -2,12 +2,12 @@ import React from 'react';
 
 function Skills() {
     return(
-        <div>
-            <h2>Resume</h2>
-            <p>A working resume will be available soon!</p>
+        <div className="skills-text">
+            <h2 className="skills-h">Resume</h2>
+            <p className="resume">A working resume will be available soon!</p>
 
-            <h2>Front-End Proficiencies</h2>
-            <ul>
+            <h2 className="skills-h">Front-End Proficiencies</h2>
+            <ul className="skills-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -16,8 +16,8 @@ function Skills() {
                 <li>Bootstrap</li>
             </ul>
 
-            <h2>Back-End Proficiencies</h2>
-            <ul>
+            <h2 className="skills-h">Back-End Proficiencies</h2>
+            <ul className="skills-list">
                 <li>API's</li>
                 <li>Node</li>
                 <li>Express</li>

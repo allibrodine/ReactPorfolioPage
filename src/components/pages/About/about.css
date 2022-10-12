@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Gothic+A1:wght@600&display=swap');
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #6D9886;
+  --tertiary-color: #D9CAB3;
+  --quaternary-color: #F6F6F6; 
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    color: var(--secondary-color);
+    padding: 20px;
+    font-size: 40px;
+}
+
+.beach {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.about-text {
+    border: solid 3px var(--primary-color);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(246, 246, 246, 0.4);
+    color: var(--primary-color);
+    text-shadow: 0 0 4px var(--secondary-color);
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}

@@ -52,6 +52,7 @@ function Contact() {
 
     return(
         <section>
+           
             <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={ handleSubmit }>
                 <div>

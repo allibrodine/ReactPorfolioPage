@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Gothic+A1:wght@600&display=swap');
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #6D9886;
+  --tertiary-color: #D9CAB3;
+  --quaternary-color: #F6F6F6; 
+}
+
+.skills-text {
+    border: solid 3px var(--primary-color);
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(246, 246, 246, 0.3);
+}
+
+.skills-h {
+    color: var(--primary-color);
+    text-shadow: 3px 3px var(--secondary-color);
+}
+
+.skills-list, .resume {
+    font-family: 'Gothic A1', sans-serif;
+    color: var(--quaternary-color);
+    text-shadow: 0 0 12px var(--primary-color);
+    font-size: 20px;
+}
+
+.resume {
+    margin-left: 20px;
+}

@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Gothic+A1:wght@600&display=swap');
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #6D9886;
+  --tertiary-color: #D9CAB3;
+  --quaternary-color: #F6F6F6; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-image: url(../src/assets/images/BrickBackground.jpg);
+  background-size: cover;
+  height: 200px;
+  color: var(--quaternary-color);
+  font-family: 'Rock Salt', cursive;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.name-header {
+  padding: 50px;
+  font-size: 60px;
+  text-shadow: 0 0 12px var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  font-size: 24px;
+  color: var(--quaternary-color);
+  text-shadow: 0 0 12px var(--primary-color);
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: bolder;
 }
+
+.link:hover {
+  color: var(--secondary-color);
+}
+
+.wrapper {
+  min-height: 1500px;
+  background-color: var(--primary-color);
+}
+
+.icon {
+  color: var(--secondary-color);
+  filter: drop-shadow(6px 6px 10px var(--primary-color)); 
+}
+
+.icon:hover {
+  color: var(--quaternary-color)
+}
+
+
