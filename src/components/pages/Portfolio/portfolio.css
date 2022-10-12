@@ -42,3 +42,8 @@
 .git {
     color: var(--secondary-color); 
 }
+
+.git:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+}

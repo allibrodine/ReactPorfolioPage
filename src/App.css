@@ -47,10 +47,12 @@ header {
 .icon {
   color: var(--secondary-color);
   filter: drop-shadow(6px 6px 10px var(--primary-color)); 
+  margin-bottom: 10px;
 }
 
 .icon:hover {
-  color: var(--quaternary-color)
+  color: var(--quaternary-color);
+  transform: scale(1.2);
 }
 
 

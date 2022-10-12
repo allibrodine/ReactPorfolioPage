@@ -1,29 +1,34 @@
 import React from 'react';
+//import react animations
+import styled, { keyframes } from 'styled-components';
+import { zoomIn } from 'react-animations';
 
 //create Nav component, pass in props from PortfolioContainer
 function Nav({ currentPage, handlePageChange }) {
+    const Zoom = styled.div`animation: 2s ${keyframes`${zoomIn}`}`;
+
     return(
         <div className="navbar d-flex p-2">
-            <ul className="navbar fixed-top">
+            <ul className="navbar">
                 <li className="d-inline-flex mx-2 link">
-                    <a href="#about"
+                    <Zoom><a href="#about"
                         onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'navActive' : 'nav-link'}>About Me</a>
+                        className={currentPage === 'About' ? 'navActive' : 'nav-link'}>About Me</a></Zoom>
                 </li>
                 <li className="d-inline-flex mx-2 link">
-                    <a href="#portfolio"
+                    <Zoom><a href="#portfolio"
                         onClick={() => handlePageChange('Portfolio')}
-                        className={currentPage === 'Portfolio' ? 'navActive' : 'nav-link'}>Portfolio</a>
+                        className={currentPage === 'Portfolio' ? 'navActive' : 'nav-link'}>Portfolio</a></Zoom>
                 </li>
                 <li className="d-inline-flex mx-2 link">
-                    <a href="#contact"
+                    <Zoom><a href="#contact"
                         onClick={() => handlePageChange('Contact')}
-                        className={currentPage === 'Contact' ? 'navActive' : 'nav-link'}>Contact</a>
+                        className={currentPage === 'Contact' ? 'navActive' : 'nav-link'}>Contact</a></Zoom>
                 </li>
                 <li className="d-inline-flex mx-2 link">
-                    <a href="#skills"
+                    <Zoom><a href="#skills"
                         onClick={() => handlePageChange('Skills')}
-                        className={currentPage === 'Skills' ? 'navActive' : 'nav-link'}>Skills</a>
+                        className={currentPage === 'Skills' ? 'navActive' : 'nav-link'}>Skills</a></Zoom>
                 </li>
             </ul>
         </div>

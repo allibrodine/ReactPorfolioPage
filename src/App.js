@@ -8,6 +8,9 @@ import './App.css';
 //import fontawesome for icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+//import react animations
+import styled, { keyframes } from 'styled-components';
+import { fadeInLeft } from 'react-animations';
 
 function App() {
   document.title = 'Alli Brodine'
@@ -33,12 +36,14 @@ function App() {
       return <About />
   };
 
+  const Fade = styled.div`animation: 2s ${keyframes`${fadeInLeft}`}`;
+
   return (
     <div className="wrapper">
       <header className="d-flex">
-
-        <h1 className="name-header">Alli Brodine</h1>
-
+        
+          <Fade><h1 className="name-header">Alli Brodine</h1></Fade>
+        
           <div>
             {/* set up props for Nav component */}
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -61,8 +66,8 @@ function App() {
             </div>
           </footer>
       </div>
-
   );
+
 }
 
 export default App;

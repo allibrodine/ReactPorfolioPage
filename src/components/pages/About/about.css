@@ -19,10 +19,6 @@ h2 {
     margin-left: 20px;
 }
 
-/*.beach:hover {
-    transform: scale(1.2);
-}*/
-
 .about-text {
     border: solid 3px var(--primary-color);
     border-radius: 10px;

@@ -34,4 +34,15 @@ label {
     font-size: 22px;
     margin-left: 10px;
     margin-top: 10px;
+    border: solid 2px var(--primary-color);
+    box-shadow: 0 0 10px 0 var(--secondary-color);
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+}
+
+.submit-btn:active {
+    transform: translateY(3px);
 }
