@@ -9,4 +9,29 @@
 
 label {
     color: var(--secondary-color);
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.error-msg {
+    color: rgb(233, 108, 99);
+    margin-left: 10px;
+}
+
+.message-label {
+    width: 100%;
+}
+
+.msg-input {
+    margin-left: 10px;
+    width: 30%;
+}
+
+.submit-btn {
+    background-color: var(--tertiary-color);
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
 }

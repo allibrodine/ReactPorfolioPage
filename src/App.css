@@ -34,8 +34,9 @@ header {
   font-weight: bolder;
 }
 
-.link:hover {
+.link:hover, .navActive, .navActive:hover {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .wrapper {

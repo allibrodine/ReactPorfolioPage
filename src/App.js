@@ -41,7 +41,7 @@ function App() {
 
           <div>
             {/* set up props for Nav component */}
-            <Nav currenPage={currentPage} handlePageChange={handlePageChange} />
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
           </div>
 
       </header>

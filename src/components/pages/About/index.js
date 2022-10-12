@@ -7,7 +7,7 @@ function About() {
     return(
         <section>
             <h2 id="about">About Me</h2>
-
+            
             {/* use imported photo as source for image tage */}
             <img src={BeachPhoto} className="beach" style={{ height: 200, width: 200 }} alt="Alli on the beach" />
 

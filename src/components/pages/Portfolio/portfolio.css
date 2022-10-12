@@ -16,7 +16,9 @@
 .card-title {
     background-color: var(--tertiary-color);
     padding: 5px;
-    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #recipes,
