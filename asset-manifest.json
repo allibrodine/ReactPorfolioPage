@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolioPage/static/css/main.26e5afbe.css",
+    "main.js": "/ReactPortfolioPage/static/js/main.5e159788.js",
+    "static/js/787.b3a1da81.chunk.js": "/ReactPortfolioPage/static/js/787.b3a1da81.chunk.js",
+    "static/media/BrickBackground.jpg": "/ReactPortfolioPage/static/media/BrickBackground.a8e2ad8c42f82f80b451.jpg",
+    "static/media/GrowTime.jpg": "/ReactPortfolioPage/static/media/GrowTime.06ffc59fa1a536a9025e.jpg",
+    "static/media/ZooKeepr.jpg": "/ReactPortfolioPage/static/media/ZooKeepr.3b54cb53ecf2112a6e46.jpg",
+    "static/media/TwistedRecipes.jpg": "/ReactPortfolioPage/static/media/TwistedRecipes.5fb3c7fd13d00922c3f4.jpg",
+    "static/media/OntheBeach.jpg": "/ReactPortfolioPage/static/media/OntheBeach.e796246c9e7c82b720c9.jpg",
+    "static/media/Taskmaster.jpg": "/ReactPortfolioPage/static/media/Taskmaster.6a6ec07f27a8182ab7b0.jpg",
+    "static/media/TechBlog.jpg": "/ReactPortfolioPage/static/media/TechBlog.5e3bb6efcb55c24fc750.jpg",
+    "static/media/WorkDay.jpg": "/ReactPortfolioPage/static/media/WorkDay.97d5785f46677e539337.jpg",
+    "index.html": "/ReactPortfolioPage/index.html",
+    "main.26e5afbe.css.map": "/ReactPortfolioPage/static/css/main.26e5afbe.css.map",
+    "main.5e159788.js.map": "/ReactPortfolioPage/static/js/main.5e159788.js.map",
+    "787.b3a1da81.chunk.js.map": "/ReactPortfolioPage/static/js/787.b3a1da81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26e5afbe.css",
+    "static/js/main.5e159788.js"
+  ]
+}
