@@ -26,7 +26,7 @@ Deployed to Github Pages <a href="https://allibrodine.github.io/ReactPorfolioPag
 
 ## Demo
 
-![Demo](https://user-images.githubusercontent.com/105396175/195712215-f355b66b-611e-433f-ab4b-820c43e03d1f.mp4)
+[ProfilePage.webm](https://user-images.githubusercontent.com/105396175/195714157-1e6ac2b8-816f-4dc4-ae43-a5dc4641710a.webm)
 
 ## Collaboration
 
