@@ -20,7 +20,6 @@ function About() {
                 <p>I am just getting started on my journey as a web developer. Learning is in progress but I am 
                     getting better every day. I have a good eye for design so I hope to focus my career on front 
                     end development to start and see where that takes me.
-                    
                     <br/>
                     I began my coding adventure just a short time ago, when I enrolled in the Full Stack Coding Bootcamp 
                     at SMU in Dallas. It has been a short but extremely intense journey that I have managed to excell in 
