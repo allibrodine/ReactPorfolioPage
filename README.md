@@ -22,11 +22,11 @@ A page showcasing my work as a budding web developer. Built in React 18, it feat
 
 ## Usage
 
-Deployed to Github Pages <a href="">here</a>
+Deployed to Github Pages <a href="https://allibrodine.github.io/ReactPorfolioPage/">here</a>
 
 ## Demo
 
-[ProfilePage.mp4.zip](https://github.com/allibrodine/ReactPorfolioPage/files/9780630/ProfilePage.mp4.zip)
+![Demo](https://user-images.githubusercontent.com/105396175/195712215-f355b66b-611e-433f-ab4b-820c43e03d1f.mp4)
 
 ## Collaboration
 
