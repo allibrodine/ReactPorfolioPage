@@ -1,10 +1,11 @@
 import React from 'react';
+import Resume from '../../../assets/AlliBrodineResume.pdf'
 
 function Skills() {
     return(
         <div className="skills-text">
             <h2 className="skills-h">Resume</h2>
-            <p className="resume">A working resume will be available soon!</p>
+            <p className="resume">My resume is available <a href={Resume} id="resume-file">here</a></p> 
 
             <h2 className="skills-h">Front-End Proficiencies</h2>
             <ul className="skills-list">

@@ -29,3 +29,8 @@
 .resume {
     margin-left: 20px;
 }
+
+#resume-file {
+    color: var(--secondary-color);  
+    text-decoration: none;
+}
