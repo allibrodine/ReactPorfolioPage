@@ -26,7 +26,7 @@
 #tech,
 #zoo,
 #taskmaster,
-#work-day {
+#too-good {
     filter: grayscale(75%);
 }
 
@@ -35,7 +35,7 @@
 #tech:hover,
 #zoo:hover,
 #taskmaster:hover,
-#work-day:hover {
+#too-good:hover {
     filter: grayscale(15%);
 }
 
@@ -46,4 +46,39 @@
 .git:hover {
     color: var(--primary-color);
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 980px) {
+    #waste {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #twisted, #blog, #task, #grow, #keepr {
+        font-size: 20px;
+    }
+
+    #waste {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card-title {
+        font-size: medium;
+    }
+
+    #twisted, #blog, #task {
+        font-size: small;
+    }
+
+    #waste {
+        font-size: x-small;
+    }
+
+    .wrapper {
+        min-height: 900px;
+    }
 }

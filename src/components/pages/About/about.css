@@ -31,3 +31,9 @@ h2 {
     font-weight: bolder;
     font-size: 24px;
 }
+
+@media screen and (max-width: 575px) {
+    .about-text {
+        font-size: 16px;
+    }
+}    
