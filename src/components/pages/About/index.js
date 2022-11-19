@@ -17,18 +17,18 @@ function About() {
             <Bounce><img src={BeachPhoto} className="beach" style={{ height: 200, width: 200 }} alt="Alli on the beach" /></Bounce>
 
             <div className="about-text">
-                <p>I am just getting started on my journey as a web developer. Learning is in progress but I am 
-                    getting better every day. I have a good eye for design so I hope to focus my career on front 
-                    end development to start and see where that takes me.
+                <p>Front-end web developer with a background in management, marketing and graphic design aspiring to create 
+                    polished, user-friendly websites and applications.
                     <br/>
                     I began my coding adventure just a short time ago, when I enrolled in the Full Stack Coding Bootcamp 
-                    at SMU in Dallas. It has been a short but extremely intense journey that I have managed to excell in 
-                    while maintaining a full time job. It has been no easy feat but I have come out at the top of my class
-                    and now I can't wait to make a much needed career change and continue on my journey in web development.
+                    at SMU in Dallas. It was a short but extremely intense journey that I managed to excell in 
+                    while maintaining a full time job. It was no easy feat but I came out at the top of my cohort
+                    with newly developed skills in CSS, JavaScript and responsive design, as well as the MERN stack.
                     <br/>
-                    My passions lie in food, music, gardening and art. I have always enjoyed the creative aspects of design
-                    but also greatly appreciate logic and structure and, this is why I believe web development is an appropriate 
-                    field for me.</p>
+                    My passions lie in food, music, gardening and art. I have a keen eye for design, strong attention to detail,
+                    excellent time management skills, and an easy-going attitude that is ideal for team work. While I am a 
+                    hard worker, I value my free time to explore my hobbies and spend time with friends and family. 
+                </p>
             </div>
         </section>
     );

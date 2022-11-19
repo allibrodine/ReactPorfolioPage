@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../../assets/AlliBrodineResume.pdf'
+import Resume from '../../../assets/Resume_AlliBrodine.pdf'
 
 function Skills() {
     return(
@@ -15,6 +15,8 @@ function Skills() {
                 <li>responsive design</li>
                 <li>React</li>
                 <li>Bootstrap</li>
+                <li>Chakra UI</li>
+                <li>Handlebars</li>
             </ul>
 
             <h2 className="skills-h">Back-End Proficiencies</h2>
@@ -24,6 +26,8 @@ function Skills() {
                 <li>Express</li>
                 <li>MySQL, Sequelize</li>
                 <li>MongoDB, Mongoose</li>
+                <li>GraphQL</li>
+                <li>JWT</li>
             </ul>
         </div>
     );

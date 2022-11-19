@@ -20,11 +20,11 @@ function Nav({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Portfolio')}
                         className={currentPage === 'Portfolio' ? 'navActive' : 'nav-link'}>Portfolio</a></Zoom>
                 </li>
-                <li className="d-inline-flex mx-2 link">
+                {/* <li className="d-inline-flex mx-2 link">
                     <Zoom><a href="#contact"
                         onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'navActive' : 'nav-link'}>Contact</a></Zoom>
-                </li>
+                </li> */}
                 <li className="d-inline-flex mx-2 link">
                     <Zoom><a href="#skills"
                         onClick={() => handlePageChange('Skills')}
