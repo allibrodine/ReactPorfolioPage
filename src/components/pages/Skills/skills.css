@@ -11,7 +11,7 @@
     border: solid 3px var(--primary-color);
     border-radius: 10px;
     margin: 20px;
-    background-color: rgba(246, 246, 246, 0.3);
+    background-color: rgba(246, 246, 246, 0.2);
 }
 
 .skills-h {
@@ -19,11 +19,18 @@
     text-shadow: 3px 3px var(--secondary-color);
 }
 
+#back {
+    margin-bottom: 0px;
+}
+
 .skills-list, .resume {
     font-family: 'Gothic A1', sans-serif;
     color: var(--quaternary-color);
     text-shadow: 0 0 12px var(--primary-color);
     font-size: 20px;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .resume {
@@ -33,4 +40,46 @@
 #resume-file {
     color: var(--secondary-color);  
     text-decoration: none;
+    margin-left: 8px;
+}
+
+.devicon {
+    height: 120px;
+    width: 100px;
+    margin: 15px;
+}
+
+#response {
+    color: var(--tertiary-color);
+    text-align: center;
+}
+
+.phone, .bolt {
+    margin: 10px 0px 10px 20px;
+}
+
+.phone {
+    margin-left: 5px;
+}
+
+#chakra {
+    color: var(--secondary-color);
+}
+
+#api {
+    color: yellow;
+    padding-top: 50px;
+    margin-right: 0px;
+    font-size: xx-large;
+}
+
+#jwt {
+    color: rgb(188, 18, 18);
+    margin-left: 20px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.lock {
+    padding-bottom: 8px;
 }
