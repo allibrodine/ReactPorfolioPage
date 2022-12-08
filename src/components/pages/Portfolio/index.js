@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 //import photos for cards
 import TwistedRecipes from '../../../assets/images/TwistedRecipes.jpg';
 import GrowTime from '../../../assets/images/GrowTime.jpg';
@@ -12,23 +12,27 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 //import react animations
 import styled, { keyframes } from 'styled-components';
 import { fadeInDown } from 'react-animations';
+//modals
+import Good from '../Modal/TooGood';
 
 
 function Portfolio() {
     const Fade = styled.div`animation: 2s ${keyframes`${fadeInDown}`}`;
 
+    //hooks for modals
+    const [open, setOpen] = useState(false);
+
     return(
+        <>
         <div className="container-fluid">
             <section id="portfolio" className="portfolio">
                 <h2>Portfolio</h2>
                 <div className="row">
                 <div className="col-4">
-                        <Fade><div className="card">
+                        <Fade><div className="card" onClick={() => setOpen(true)} >
                             <h3 className="card-title d-inline-flex" id="waste">Too Good To Waste<a href="https://github.com/dmadon/too-good-to-waste" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
                             <div id="too-good">
-                                <a href="https://ancient-ocean-76067.herokuapp.com/">
-                                    <img src={TooGood} alt="Too Good To Waste" className="img-fluid"/>
-                                </a>
+                                <img src={TooGood} alt="Too Good To Waste" className="img-fluid"/>
                             </div>
                         </div></Fade>
                     </div>          
@@ -84,7 +88,10 @@ function Portfolio() {
                     </div>        
                 </div>
             </section>        
-        </div>  
+        </div> 
+
+        <Good onClose={() => setOpen(false)} show={open} />
+        </> 
     )
 }
 

@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #6D9886;
+    --tertiary-color: #D9CAB3;
+    --quaternary-color: #F6F6F6; 
+  }
+
+.modals {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    z-index: 1;
+    /* opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none; */
+}
+
+/* .modal.show {
+    opacity: 1;
+    pointer-events: visible;
+} */
+
+.modals-content {
+    position: fixed;
+    top: 25%;
+    width: 500px;
+    height: 425px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    padding: 15px;
+}
+
+.close {
+    padding: 5px;
+    float: right;
+}
+
+#git {
+    float: right;
+}
+
+
+
