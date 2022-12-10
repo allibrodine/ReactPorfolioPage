@@ -38,6 +38,16 @@
     padding: 15px;
 }
 
+.modals-content-blog {
+    position: fixed;
+    top: 25%;
+    width: 500px;
+    height: 550px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    padding: 15px;
+}
+
 span {
     font-weight: bold;
 }
@@ -72,6 +82,11 @@ span {
     .modals-content {
         width: 400px;
         height: 360px;
+    }
+
+    .modals-content-blog{
+        width: 400px;
+        height: 450px;
     }
 
     .modal-head {
