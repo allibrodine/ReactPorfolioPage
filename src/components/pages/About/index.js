@@ -3,11 +3,11 @@ import BeachPhoto from '../../../assets/images/OntheBeach.jpg';
 import '../About/about.css'
 //import react animations
 import styled, { keyframes } from 'styled-components';
-import { bounceInLeft } from 'react-animations';
+import { fadeIn } from 'react-animations';
 
 //create About section
 function About() {
-    const Bounce = styled.div`animation: 2s ${keyframes`${bounceInLeft}`}`;
+    const Bounce = styled.div`animation: 2s ${keyframes`${fadeIn}`}`;
 
     return(
         <section>

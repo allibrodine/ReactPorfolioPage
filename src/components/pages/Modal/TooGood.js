@@ -44,4 +44,3 @@ const GoodModal = props => {
 
 export default GoodModal;
 
-//{`modal ${props.show ? 'show' : ''}`}

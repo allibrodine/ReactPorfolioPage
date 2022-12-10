@@ -14,6 +14,11 @@ import styled, { keyframes } from 'styled-components';
 import { fadeInDown } from 'react-animations';
 //modals
 import Good from '../Modal/TooGood';
+import Twisted from '../Modal/Twisted';
+// import Grow from '../Modal/Grow';
+// import Blog from '../Modal/Blog';
+// import Zoo from '../Modal/Zoo';
+// import Task from '../Modal/Task';
 
 
 function Portfolio() {
@@ -21,6 +26,11 @@ function Portfolio() {
 
     //hooks for modals
     const [open, setOpen] = useState(false);
+    const [show, setShow] = useState(false);
+    // const [view, setView] = useState(false);
+    // const [value, setValue] = useState(false);
+    // const [display, setDisplay] = useState(false);
+    // const [drop, setDrop] = useState(false);
 
     return(
         <>
@@ -37,12 +47,10 @@ function Portfolio() {
                         </div></Fade>
                     </div>          
                     <div className="col-4">
-                        <Fade><div className="card">
-                            <h3 className="card-title d-inline-flex" id="twisted">Twisted Recipes<a href="https://github.com/allibrodine/TwistedRecipes" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
+                        <Fade><div className="card" onClick={() => setShow(true)}>
+                            <h3 className="card-title d-inline-flex" id="twisted">Twisted Recipes</h3>
                             <div id="recipes">
-                                <a href="https://alli-twistedrecipes.herokuapp.com/">
-                                    <img src={TwistedRecipes} alt="Twisted Recipes" className="img-fluid"/>
-                                </a>
+                                <img src={TwistedRecipes} alt="Twisted Recipes" className="img-fluid"/>
                             </div>
                         </div></Fade>
                     </div>        
@@ -91,6 +99,7 @@ function Portfolio() {
         </div> 
 
         <Good onClose={() => setOpen(false)} show={open} />
+        <Twisted onClose={() => setShow(false)} show={show} />
         </> 
     )
 }
@@ -98,3 +107,4 @@ function Portfolio() {
 export default Portfolio;
 
 //<a href="https://github.com/dmadon/too-good-to-waste" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
+//<a href="https://github.com/allibrodine/TwistedRecipes" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
