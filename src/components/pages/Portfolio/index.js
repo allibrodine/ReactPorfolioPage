@@ -30,7 +30,7 @@ function Portfolio() {
                 <div className="row">
                 <div className="col-4">
                         <Fade><div className="card" onClick={() => setOpen(true)} >
-                            <h3 className="card-title d-inline-flex" id="waste">Too Good To Waste<a href="https://github.com/dmadon/too-good-to-waste" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
+                            <h3 className="card-title d-inline-flex" id="waste">Too Good To Waste</h3>
                             <div id="too-good">
                                 <img src={TooGood} alt="Too Good To Waste" className="img-fluid"/>
                             </div>
@@ -96,3 +96,5 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
+//<a href="https://github.com/dmadon/too-good-to-waste" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>

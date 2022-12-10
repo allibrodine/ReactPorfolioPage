@@ -67,10 +67,11 @@
 }
 
 #api {
-    color: yellow;
-    padding-top: 50px;
+    color: rgba(255, 255, 0, 0.759);
+    padding-top: 35px;
     margin-right: 0px;
-    font-size: xx-large;
+    font-size: x-large;
+    text-align: center;
 }
 
 #jwt {

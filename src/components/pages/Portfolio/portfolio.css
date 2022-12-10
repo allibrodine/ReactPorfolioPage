@@ -11,6 +11,7 @@
     margin: 10px;
     background-color: var(--tertiary-color);
     font-family: 'Gothic A1', sans-serif;
+    cursor: pointer;
 }
 
 .card-title {

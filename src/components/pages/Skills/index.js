@@ -37,7 +37,7 @@ function Skills() {
 
             <h2 className="skills-h" id="back">Back-End Proficiencies</h2>
             <ul className="skills-list">
-                <li className="devicon" id="api">APIs</li>
+                <li className="devicon" id="api">Restful APIs</li>
                 <li>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" className="devicon"/>
                 </li>
