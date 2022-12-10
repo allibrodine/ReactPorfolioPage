@@ -15,7 +15,7 @@ import { fadeInDown } from 'react-animations';
 //modals
 import Good from '../Modal/TooGood';
 import Twisted from '../Modal/Twisted';
-// import Grow from '../Modal/Grow';
+import Grow from '../Modal/Grow';
 // import Blog from '../Modal/Blog';
 // import Zoo from '../Modal/Zoo';
 // import Task from '../Modal/Task';
@@ -27,7 +27,7 @@ function Portfolio() {
     //hooks for modals
     const [open, setOpen] = useState(false);
     const [show, setShow] = useState(false);
-    // const [view, setView] = useState(false);
+    const [view, setView] = useState(false);
     // const [value, setValue] = useState(false);
     // const [display, setDisplay] = useState(false);
     // const [drop, setDrop] = useState(false);
@@ -55,12 +55,10 @@ function Portfolio() {
                         </div></Fade>
                     </div>        
                     <div className="col-4">
-                        <Fade><div className="card">
-                            <h3 className="card-title d-inline-flex" id="grow">Grow Time<a href="https://github.com/allibrodine/GrowTime" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
+                        <Fade><div className="card" onClick={() => setView(true)}>
+                            <h3 className="card-title d-inline-flex" id="grow">GrowTime</h3>
                             <div id="grow-time">
-                                <a href="https://allibrodine.github.io/GrowTime/">
-                                    <img src={GrowTime} alt="GrowTime" className="img-fluid"/>
-                                </a>
+                                <img src={GrowTime} alt="GrowTime" className="img-fluid"/>
                             </div>
                         </div></Fade>        
                     </div> 
@@ -100,6 +98,7 @@ function Portfolio() {
 
         <Good onClose={() => setOpen(false)} show={open} />
         <Twisted onClose={() => setShow(false)} show={show} />
+        <Grow onClose={() => setView(false)} show={view} />
         </> 
     )
 }
@@ -108,3 +107,4 @@ export default Portfolio;
 
 //<a href="https://github.com/dmadon/too-good-to-waste" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
 //<a href="https://github.com/allibrodine/TwistedRecipes" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
+//<a href="https://github.com/allibrodine/GrowTime" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
