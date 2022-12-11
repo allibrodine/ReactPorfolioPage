@@ -25,7 +25,7 @@
 #recipes,
 #grow-time,
 #tech,
-#zoo,
+#hunt,
 #taskmaster,
 #too-good {
     filter: grayscale(75%);
@@ -34,7 +34,7 @@
 #recipes:hover,
 #grow-time:hover,
 #tech:hover,
-#zoo:hover,
+#hunt:hover,
 #taskmaster:hover,
 #too-good:hover {
     filter: grayscale(15%);
@@ -57,7 +57,7 @@
 
 
 @media screen and (max-width: 768px) {
-    #twisted, #blog, #task, #grow, #keepr {
+    #twisted, #blog, #task, #grow, #pizza {
         font-size: 20px;
     }
 

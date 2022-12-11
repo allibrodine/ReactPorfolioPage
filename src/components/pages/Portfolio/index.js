@@ -3,12 +3,9 @@ import React, { useState } from 'react';
 import TwistedRecipes from '../../../assets/images/TwistedRecipes.jpg';
 import GrowTime from '../../../assets/images/GrowTime.jpg';
 import TechBlog from '../../../assets/images/TechBlog.jpg';
-import ZooKeepr from '../../../assets/images/ZooKeepr.jpg';
+import PizzaHunt from '../../../assets/images/PizzaHunt.jpg';
 import Taskmaster from '../../../assets/images/Taskmaster.jpg';
 import TooGood from '../../../assets/images/TooGood.jpg';
-//import fontawesome for github icon
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 //import react animations
 import styled, { keyframes } from 'styled-components';
 import { fadeInDown } from 'react-animations';
@@ -17,7 +14,7 @@ import Good from '../Modal/TooGood';
 import Twisted from '../Modal/Twisted';
 import Grow from '../Modal/Grow';
 import Blog from '../Modal/Blog';
-// import Zoo from '../Modal/Zoo';
+import Pizza from '../Modal/Pizza';
 import Task from '../Modal/Task';
 
 
@@ -29,7 +26,7 @@ function Portfolio() {
     const [show, setShow] = useState(false);
     const [view, setView] = useState(false);
     const [value, setValue] = useState(false);
-    // const [display, setDisplay] = useState(false);
+    const [display, setDisplay] = useState(false);
     const [drop, setDrop] = useState(false);
 
     return(
@@ -71,12 +68,10 @@ function Portfolio() {
                         </div></Fade>
                     </div>     
                     <div className="col-4">
-                        <Fade><div className="card">
-                            <h3 className="card-title d-inline-flex" id="keepr">Zoo Keepr<a href="https://github.com/allibrodine/ZooKeepr" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
-                            <div id="zoo">
-                                <a href="https://alli-zookeepr.herokuapp.com/">
-                                    <img src={ZooKeepr} alt="Zoo Keepr" className="img-fluid"/>
-                                </a>
+                        <Fade><div className="card" onClick={() => setDisplay(true)}>
+                            <h3 className="card-title d-inline-flex" id="pizza">Pizza Hunt</h3>
+                            <div id="hunt">
+                                <img src={PizzaHunt} alt="Pizza Hunt" className="img-fluid"/>
                             </div>
                         </div></Fade>
                     </div>            
@@ -96,6 +91,7 @@ function Portfolio() {
         <Twisted onClose={() => setShow(false)} show={show} />
         <Grow onClose={() => setView(false)} show={view} />
         <Blog onClose={() => setValue(false)} show={value} />
+        <Pizza onClose={() => setDisplay(false)} show={display} />
         <Task onClose={() => setDrop(false)} show={drop} />
         </> 
     )
