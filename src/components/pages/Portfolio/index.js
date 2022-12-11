@@ -18,7 +18,7 @@ import Twisted from '../Modal/Twisted';
 import Grow from '../Modal/Grow';
 import Blog from '../Modal/Blog';
 // import Zoo from '../Modal/Zoo';
-// import Task from '../Modal/Task';
+import Task from '../Modal/Task';
 
 
 function Portfolio() {
@@ -30,7 +30,7 @@ function Portfolio() {
     const [view, setView] = useState(false);
     const [value, setValue] = useState(false);
     // const [display, setDisplay] = useState(false);
-    // const [drop, setDrop] = useState(false);
+    const [drop, setDrop] = useState(false);
 
     return(
         <>
@@ -81,12 +81,10 @@ function Portfolio() {
                         </div></Fade>
                     </div>            
                     <div className="col-4">
-                        <Fade><div className="card">
-                            <h3 className="card-title d-inline-flex" id="task">Taskmaster Pro<a href="https://github.com/allibrodine/TaskmasterPro" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a></h3>
+                        <Fade><div className="card" onClick={() => setDrop(true)}>
+                            <h3 className="card-title d-inline-flex" id="task">Taskmaster Pro</h3>
                             <div id="taskmaster">
-                                <a href="https://allibrodine.github.io/TaskmasterPro/">
-                                    <img src={Taskmaster} alt="Taskmaster Pro" className="img-fluid"/>
-                                </a>
+                                <img src={Taskmaster} alt="Taskmaster Pro" className="img-fluid"/>
                             </div>
                         </div></Fade>        
                     </div>        
@@ -98,6 +96,7 @@ function Portfolio() {
         <Twisted onClose={() => setShow(false)} show={show} />
         <Grow onClose={() => setView(false)} show={view} />
         <Blog onClose={() => setValue(false)} show={value} />
+        <Task onClose={() => setDrop(false)} show={drop} />
         </> 
     )
 }
@@ -108,3 +107,4 @@ export default Portfolio;
 //<a href="https://github.com/allibrodine/TwistedRecipes" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
 //<a href="https://github.com/allibrodine/GrowTime" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
 //<a href="https://github.com/allibrodine/TheTechBlog" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
+//<a href="https://github.com/allibrodine/TaskmasterPro" target="blank" className="mx-2"><FontAwesomeIcon icon={faGithub} className="git" /></a>
