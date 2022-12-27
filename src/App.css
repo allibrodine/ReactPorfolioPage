@@ -25,14 +25,14 @@ header {
 }
 
 .navbar {
-  display: flex;
-  align-items: flex-end;
+  /* display: flex;
+  align-items: flex-end; */
   font-size: 24px;
   color: var(--quaternary-color);
   text-shadow: 0 0 12px var(--primary-color);
   font-family: 'Gothic A1', sans-serif;
   font-weight: bolder;
-}
+} 
 
 .link:hover, .navActive, .navActive:hover {
   color: var(--secondary-color);
@@ -91,15 +91,19 @@ header {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) and (max-width: 574px) {
+  header {
+    height: 150px;
+  }
+  
   .name-header {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .navbar {
     font-size: 16px;
     margin-left: 0;
-    margin-right: 15px;
+    padding-right: 15px;
   }
 
   .wrapper {

@@ -9,8 +9,8 @@ function Nav({ currentPage, handlePageChange }) {
 
     return(
         <div className="navbar d-flex p-2">
-            <ul className="navbar">
-                <li className="about d-inline-flex mx-2 link">
+            <ul className="navbar flex-lg-row flex-sm-column flex-xs-column">
+                <li className="d-inline-flex mx-2 link">
                     <Zoom><a href="#about"
                         onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'navActive' : 'nav-link'}>About Me</a></Zoom>

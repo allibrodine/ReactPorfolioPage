@@ -32,13 +32,13 @@ h2 {
     font-size: 24px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 575px) and (max-width: 768px) {
     .about-text {
         font-size: 16px;
     }
 }    
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 300px) and (max-width: 574px){
     h2 {
         text-align: center;
     }
