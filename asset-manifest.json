@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPorfolioPage/static/css/main.0f414924.css",
-    "main.js": "/ReactPorfolioPage/static/js/main.a65844fb.js",
+    "main.css": "/ReactPorfolioPage/static/css/main.ae6dc564.css",
+    "main.js": "/ReactPorfolioPage/static/js/main.278d53e0.js",
     "static/js/787.b3a1da81.chunk.js": "/ReactPorfolioPage/static/js/787.b3a1da81.chunk.js",
     "static/media/BrickBackground.jpg": "/ReactPorfolioPage/static/media/BrickBackground.a8e2ad8c42f82f80b451.jpg",
     "static/media/TooGood.jpg": "/ReactPorfolioPage/static/media/TooGood.bc2fdfbe4373869ead49.jpg",
@@ -13,12 +13,12 @@
     "static/media/TechBlog.jpg": "/ReactPorfolioPage/static/media/TechBlog.5e3bb6efcb55c24fc750.jpg",
     "static/media/NoteTaker.jpg": "/ReactPorfolioPage/static/media/NoteTaker.24e37234415613ab89a3.jpg",
     "index.html": "/ReactPorfolioPage/index.html",
-    "main.0f414924.css.map": "/ReactPorfolioPage/static/css/main.0f414924.css.map",
-    "main.a65844fb.js.map": "/ReactPorfolioPage/static/js/main.a65844fb.js.map",
+    "main.ae6dc564.css.map": "/ReactPorfolioPage/static/css/main.ae6dc564.css.map",
+    "main.278d53e0.js.map": "/ReactPorfolioPage/static/js/main.278d53e0.js.map",
     "787.b3a1da81.chunk.js.map": "/ReactPorfolioPage/static/js/787.b3a1da81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f414924.css",
-    "static/js/main.a65844fb.js"
+    "static/css/main.ae6dc564.css",
+    "static/js/main.278d53e0.js"
   ]
 }
