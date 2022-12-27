@@ -11,7 +11,7 @@
     border: solid 3px var(--primary-color);
     border-radius: 10px;
     margin: 20px;
-    background-color: rgba(246, 246, 246, 0.2);
+    background-color: rgba(246, 246, 246, 0.5);
 }
 
 .skills-h {
@@ -83,4 +83,11 @@
 
 .lock {
     padding-bottom: 8px;
+}
+
+@media screen and (min-width: 320px) {
+    .skills-text {
+        text-align: center;
+    }
+
 }

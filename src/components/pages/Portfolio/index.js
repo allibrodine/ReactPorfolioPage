@@ -36,7 +36,7 @@ function Portfolio() {
             <section id="portfolio" className="portfolio">
                 <h2>Portfolio</h2>
                 <div className="row">
-                <div className="col-4">
+                <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setOpen(true)} >
                             <h3 className="card-title d-inline-flex" id="waste">Too Good To Waste</h3>
                             <div id="too-good">
@@ -44,7 +44,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>          
-                    <div className="col-4">
+                    <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setShow(true)}>
                             <h3 className="card-title d-inline-flex" id="twisted">Twisted Recipes</h3>
                             <div id="recipes">
@@ -52,7 +52,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>        
-                    <div className="col-4">
+                    <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setView(true)}>
                             <h3 className="card-title d-inline-flex" id="grow">GrowTime</h3>
                             <div id="grow-time">
@@ -60,7 +60,7 @@ function Portfolio() {
                             </div>
                         </div>        
                     </div> 
-                    <div className="col-4">
+                    <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setValue(true)}>
                             <h3 className="card-title d-inline-flex" id="blog">The Tech Blog</h3>
                             <div id="tech">
@@ -68,7 +68,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>     
-                    <div className="col-4">
+                    <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setDisplay(true)}>
                             <h3 className="card-title d-inline-flex" id="note">Note Taker</h3>
                             <div id="taker">
@@ -76,7 +76,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>            
-                    <div className="col-4">
+                    <div className="col-lg-4 col-xs-1">
                         <div className="card" onClick={() => setDrop(true)}>
                             <h3 className="card-title d-inline-flex" id="task">Taskmaster Pro</h3>
                             <div id="taskmaster">

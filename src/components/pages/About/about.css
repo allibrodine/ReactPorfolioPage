@@ -37,3 +37,21 @@ h2 {
         font-size: 16px;
     }
 }    
+
+@media screen and (min-width: 320px) {
+    h2 {
+        text-align: center;
+    }
+
+    .beach, .about-text {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .about-text {
+        width: 80%;
+    }
+}
+
