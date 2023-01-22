@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 //import photos for cards
 import TwistedRecipes from '../../../assets/images/TwistedRecipes.jpg';
 import GrowTime from '../../../assets/images/GrowTime.jpg';
-import TechBlog from '../../../assets/images/TechBlog.jpg';
+import Alexis from '../../../assets/images/alexis.jpg';
 import NoteTaker from '../../../assets/images/NoteTaker.jpg';
 import Taskmaster from '../../../assets/images/Taskmaster.jpg';
 import TooGood from '../../../assets/images/TooGood.jpg';
@@ -14,7 +14,7 @@ import TooGood from '../../../assets/images/TooGood.jpg';
 import Good from '../Modal/TooGood';
 import Twisted from '../Modal/Twisted';
 import Grow from '../Modal/Grow';
-import Blog from '../Modal/Blog';
+import Counter from '../Modal/Counter';
 import Note from '../Modal/Note';
 import Task from '../Modal/Task';
 
@@ -62,9 +62,9 @@ function Portfolio() {
                     </div> 
                     <div className="col-lg-4 col-sm-6 col-xs-1">
                         <div className="card" onClick={() => setValue(true)}>
-                            <h3 className="card-title d-inline-flex" id="blog">The Tech Blog</h3>
-                            <div id="tech">
-                                <img src={TechBlog} alt="The Tech Blog" className="img-fluid"/>
+                            <h3 className="card-title d-inline-flex" id="david">Ew, David!</h3>
+                            <div id="alexis">
+                                <img src={Alexis} alt="Alexis" className="img-fluid"/>
                             </div>
                         </div>
                     </div>     
@@ -91,7 +91,7 @@ function Portfolio() {
         <Good onClose={() => setOpen(false)} show={open} />
         <Twisted onClose={() => setShow(false)} show={show} />
         <Grow onClose={() => setView(false)} show={view} />
-        <Blog onClose={() => setValue(false)} show={value} />
+        <Counter onClose={() => setValue(false)} show={value} />
         <Note onClose={() => setDisplay(false)} show={display} />
         <Task onClose={() => setDrop(false)} show={drop} />
         </> 
